@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+    <title>Retab</title>
+    <meta name="description" content="Reopen closed tabs.">
+    <script>
+
+      var maxTabs = 20, // Remember up to 20 tabs
+      tabs = [],        // Keep track of closed tabs.
+      openTab = function (url) {
+        safari.application.activeBrowserWindow.openTab().url = url;
+      };
+
+      // Exchange message events with injected script.
+      safari.application.addEventListener("message", function (e) {
+        // Only track keydown messages, there are tabs to reopen
+        // and we are not private browsing.
+        if (e.name == "onkeydown" && tabs.length > 0
+          && !safari.application.privateBrowsing.enabled) {
+          var key = e.message;
+          if (safari.extension.settings.getItem("chromeBindings")) { // ⌘+⇧+T
+            key.meta && key.shift && key.code == 84 && openTab(tabs.pop());
+          } else { // ⌘+z (default)
+            key.meta && key.code == 90 && openTab(tabs.pop());
+          }
+        }
+      });
+
+      safari.application.addEventListener("close", function(e) {
+        if (e.target.url && !safari.application.privateBrowsing.enabled) {
+          // Add URL to tab stack; shift if tab limit is exceeded.
+          tabs.push(e.target.url);
+          if (tabs.length >= maxTabs) tabs.shift;
+        }
+      }, true); // Enable useCapture to listen here first.
+
+
+    </script>
+  </head>
+</html>
