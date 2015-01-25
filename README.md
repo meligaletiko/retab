@@ -27,3 +27,4 @@ There is no numeric spinner available via settings in Safari. Using any other UI
 
 [bundle]: https://github.com/bucaran/retab/blob/master/retab.safariextz?raw=true
 [zip]: https://github.com/bucaran/retab/archive/master.zip
+[issues]: https://github.com/bucaran/retab/issues
