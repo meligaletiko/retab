@@ -5,7 +5,7 @@ In Safari you can _⌘ + z_ to reopen the last closed tab, but it seems to fall 
 
 ## Install
 
-Download the extension bundle [here][bundle], double click, confirm and you will be reopening closed tabs in no time. Alternatively, you can [download][zip] the source and build it yourself. You will need to [register](https://developer.apple.com/programs/safari/) for the Safari Developer Program. (Free)
+Download the extension bundle [**here**][bundle], double click, confirm and you will be reopening closed tabs in no time. Alternatively, you can [download][zip] the source and build it yourself. You will need to [register](https://developer.apple.com/programs/safari/) for the Safari Developer Program. (Free)
 
 
 ## Key bindings
