@@ -6,7 +6,7 @@
    <array>
      <dict>
        <key>CFBundleIdentifier</key>
-       <string>com.bucaran.retab</string>
+       <string>me.bucaran.retab</string>
        <key>Developer Identifier</key>
        <string>JVDUFN38BR</string>
        <key>CFBundleVersion</key>
