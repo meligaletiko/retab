@@ -1,7 +1,7 @@
 # _retab_
 > Reopen Closed Tabs in Safari
 
-In Safari you can _⌘ + z_ to reopen the last closed tab, but it seems to fall short of _undo_ as it only works for one tab. With _retab_ you can reopen as many as _20_ closed tabs.
+In Safari you can _<kbd>⌘</kbd> + <kbd>z</kbd>_ to reopen the last closed tab, but it seems to fall short of _undo_ as it only works for one tab. With _retab_ you can reopen as many as _20_ closed tabs.
 
 ## Install
 
@@ -10,7 +10,7 @@ Download the extension bundle [**here**][bundle], double click, confirm and you 
 
 ## Key bindings
 
-_retab_ uses _⌘ + z_ by default, but Chrome-_style_ _⌘ + ⇧ + T_ is also available via Settings.
+_retab_ uses _<kbd>⌘</kbd> + <kbd>z</kbd>_ by default, but Chrome-_style_ _<kbd>⌘</kbd> + <kbd>⇧</kbd> + <kbd>T</kbd>_ is also available via Settings.
 
 ![](settings.png)
 
