@@ -1,7 +1,7 @@
 > Reopen Closed Tabs in Safari
 
-![](https://img.shields.io/badge/Re-Tab-dd00ee.svg?style=flat-square)
-![](https://img.shields.io/badge/Safari-Extension-0000ee.svg?style=flat-square)
+![](https://img.shields.io/badge/Re-Tab-106ae0.svg?style=flat-square)
+![](https://img.shields.io/badge/Safari-Extension-0adffb.svg?style=flat-square)
 ![](https://img.shields.io/badge/License-MIT-303030.svg?style=flat-square)
 
 In Safari you can _<kbd>⌘</kbd> + <kbd>z</kbd>_ to reopen the last closed tab, but it seems to fall short of _undo_ as it only works for one tab. With _retab_ you can reopen as many as _20_ closed tabs.
