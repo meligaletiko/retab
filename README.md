@@ -26,7 +26,7 @@ You can also check out the source code _< 40 LOC_.
 
 ## Key Bindings
 
-_retab_ uses _<kbd>⌘</kbd> + <kbd>z</kbd>_ by default, but Chrome-_style_ _<kbd>⌘</kbd> + <kbd>⇧</kbd> + <kbd>T</kbd>_ bindings are also available via Settings.
+_retab_ uses Chrome-_style_ _<kbd>⌘</kbd> + <kbd>⇧</kbd> + <kbd>T</kbd>_ bindings by default, but you can change this via Settings.
 
 <p align="center">
 <img width=90% src="https://cloud.githubusercontent.com/assets/8317250/7451236/6ec31236-f289-11e4-99c9-af35c97575f7.png"/>
