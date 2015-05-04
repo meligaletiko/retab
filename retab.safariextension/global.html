@@ -1,49 +1,6 @@
 <!DOCTYPE html>
-  <html>
-  <head>
-    <title>Retab</title>
-    <meta name="description" content="Reopen closed tabs.">
-    <script>
-
-      var tabs = []; // Keep track of closed tabs.
-      openTab = function () {
-        var tab = tabs.pop();
-        var currentTime = (new Date).getTime();
-        var timeLimit = parseInt(safari.extension.settings.getItem("saveTabDuration"));
-        // saveTabDuration is in hours and (new Date).getTime() returns milliseconds so multiply by 3600 * 1000
-        if(currentTime - tab.time <= timeLimit * 3600 * 1000 || timeLimit === -1) { // for the "Never" option
-          safari.application.activeBrowserWindow.openTab().url = tab.url;
-        } else {
-          // since the last element of tabs will be the newest, if it is too old, the entire list is too old
-          tabs = [];
-        }
-      };
-
-      // Exchange message events with injected script.
-      safari.application.addEventListener("message", function (e) {
-        // Only track keydown messages, there are tabs to reopen
-        // and we are not private browsing.
-        if (e.name == "onkeydown" && tabs.length > 0
-          && !safari.application.privateBrowsing.enabled) {
-          var key = e.message;
-          if (safari.extension.settings.getItem("chromeBindings")) { // ⌘+⇧+T
-            key.meta && key.shift && key.code == 84 && openTab();
-          } else { // ⌘+z (default)
-            key.meta && key.code == 90 && openTab();
-          }
-        }
-      });
-
-      safari.application.addEventListener("close", function(e) {
-        if (e.target.url && !safari.application.privateBrowsing.enabled) {
-          // Add URL to tab stack; shift if tab limit is exceeded.
-          tabs.push({
-            url: e.target.url,
-            time: (new Date).getTime()
-          });
-        }
-      }, true); // Enable useCapture to listen here first.
-
-    </script>
-  </head>
+<html>
+<head>
+  <script src="index.js"></script>
+</head>
 </html>

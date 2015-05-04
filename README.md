@@ -1,31 +1,36 @@
-> Reopen Closed Tabs in Safari
-
 ![](https://img.shields.io/badge/Re-Tab-106ae0.svg?style=flat-square)
 ![](https://img.shields.io/badge/Safari-Extension-ffaa00.svg?style=flat-square)
 ![](https://img.shields.io/badge/License-MIT-303030.svg?style=flat-square)
+> Reopen Closed Tabs in Safari
 
-In Safari you can _<kbd>⌘</kbd> + <kbd>z</kbd>_ to reopen the last closed tab, but it seems to fall short of _undo_ as it only works for one tab. With _retab_ you can reopen as many as _20_ closed tabs.
 
-## Install
+<p align="center">
+<img width=50% src="https://cloud.githubusercontent.com/assets/8317250/7451539/caffc5aa-f28c-11e4-9c7e-f3a79931a256.png"/>
+</p>
 
-Download bundle [**here**][bundle], double click, confirm and you will be reopening closed tabs in no time. Alternatively, you can [download][zip] the source and build it yourself. You will need to [register](https://developer.apple.com/programs/safari/) for the Safari Developer Program. (Free)
+In Safari you can _<kbd>⌘</kbd> + <kbd>z</kbd>_ to reopen the last closed tab, but it only works once. With _retab_ you can recover as many tabs as you want.
 
-## Key bindings
+# Install
 
-_retab_ uses _<kbd>⌘</kbd> + <kbd>z</kbd>_ by default, but Chrome-_style_ _<kbd>⌘</kbd> + <kbd>⇧</kbd> + <kbd>T</kbd>_ is also available via Settings.
+Download [**here**][bundle], double click and you will be reopening closed tabs in no time. Or, you can check out the source code (_< 40 LOC_) and build it yourself.
 
-![](settings.png)
+# Features
 
-## Requests
-If you have any requests or issues with this software, please [open an issue][issues] and you will be promptly served. You are also welcome to submit a patch or pull a request with that feature you like.
++ Chrome-style Key Bindings
++ Remembers closed tab position
++ Background (Faster) / Foreground Tab Opening
 
-## FAQ
-1. Why only 20 tabs?
-There is no numeric spinner available via settings in Safari. Using any other UI component would be too cumbersome. 20 seems like a fairly large number of tabs. For instance, Chrome remembers up to 10. We can double that.
+## Key Bindings
+
+_retab_ uses _<kbd>⌘</kbd> + <kbd>z</kbd>_ by default, but Chrome-_style_ _<kbd>⌘</kbd> + <kbd>⇧</kbd> + <kbd>T</kbd>_ bindings are also available via Settings.
+
+<p align="center">
+<img width=90% src="https://cloud.githubusercontent.com/assets/8317250/7451236/6ec31236-f289-11e4-99c9-af35c97575f7.png"/>
+</p>
 
 ## License
 
-[MIT](http://opensource.org/licenses/MIT) © [Jorge Bucaran](http://bucaran.me)
+[MIT](http://opensource.org/licenses/MIT) © [Jorge Bucaran](http://about.bucaran.me)
 
 [bundle]: https://github.com/bucaran/retab/blob/master/retab.safariextz?raw=true
 [zip]: https://github.com/bucaran/retab/archive/master.zip
