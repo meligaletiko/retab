@@ -2,29 +2,19 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <array>
-  <dict>
-    <key>DefaultValue</key>
-    <true/>
-    <key>Key</key>
-    <string>chrome</string>
-    <key>Title</key>
-    <string>Use Chrome ⌘+⇧+T bindings</string>
-    <key>Type</key>
-    <string>CheckBox</string>
-  </dict>
-  <dict>
-    <key>DefaultValue</key>
-    <string>background</string>
-    <key>FalseValue</key>
-    <string>foreground</string>
-    <key>Key</key>
-    <string>visibility</string>
-    <key>Title</key>
-    <string>Tabs Open in the Background</string>
-    <key>TrueValue</key>
-    <string>background</string>
-    <key>Type</key>
-    <string>CheckBox</string>
-  </dict>
+	<dict>
+		<key>DefaultValue</key>
+		<string>background</string>
+		<key>FalseValue</key>
+		<string>foreground</string>
+		<key>Key</key>
+		<string>visibility</string>
+		<key>Title</key>
+		<string>Tabs Open in the Background</string>
+		<key>TrueValue</key>
+		<string>background</string>
+		<key>Type</key>
+		<string>CheckBox</string>
+	</dict>
 </array>
 </plist>

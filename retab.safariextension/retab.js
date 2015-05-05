@@ -1,8 +1,6 @@
 document.onkeydown = function (e) {
-  var T = 84, Z = 90
-  if (e.metaKey && e.shiftKey && e.keyCode === T) {
-    safari.self.tab.dispatchMessage("retab", { chrome: true } )
-  } else if (e.metaKey && e.codeKey === Z) {
-    safari.self.tab.dispatchMessage("retab", { chrome: false } )
+  if (e.metaKey && e.shiftKey && e.keyCode === 84) {
+    e.preventDefault()
+    safari.self.tab.dispatchMessage("retab")
   }
 }

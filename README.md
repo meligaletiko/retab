@@ -8,13 +8,13 @@
 <img width=40% src="https://cloud.githubusercontent.com/assets/8317250/7451539/caffc5aa-f28c-11e4-9c7e-f3a79931a256.png"/>
 </p>
 
-In Safari you can _<kbd>⌘</kbd> + <kbd>z</kbd>_ to reopen the last closed tab, but it only works once. With _retab_ you can recover as many tabs as you want.
+Infinite <kbd>⌘</kbd> + <kbd>⇧</kbd> + <kbd>T</kbd> for Safari.
 
 # Install
 
-Download it [**here**][bundle], double click the bundle and you will be reopening closed tabs in no time.
+[Download][bundle], double click and _retab_ away.
 
-You can also check out the source code _< 40 LOC_.
+You can also [check out the source code](https://github.com/bucaran/retab/blob/master/retab.safariextension/index.js) at _< 30 LOC_.
 
 # Features
 
@@ -26,10 +26,10 @@ You can also check out the source code _< 40 LOC_.
 
 ## Key Bindings
 
-_retab_ uses Chrome-_style_ _<kbd>⌘</kbd> + <kbd>⇧</kbd> + <kbd>T</kbd>_ bindings by default, but you can change this via <kbd>⌘</kbd> + <kbd>,</kbd> Settings → Extensions.
+_retab_ opens tab in the background for best performance, but you can change this via <kbd>⌘</kbd> + <kbd>,</kbd> Settings → Extensions.
 
 <p align="center">
-<img width=85% src="https://cloud.githubusercontent.com/assets/8317250/7451236/6ec31236-f289-11e4-99c9-af35c97575f7.png"/>
+<img width=85% src="https://cloud.githubusercontent.com/assets/8317250/7474206/cbe26dc6-f37a-11e4-9b83-4a00daa44ce0.png"/>
 </p>
 
 ## License

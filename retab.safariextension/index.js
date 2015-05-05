@@ -1,37 +1,29 @@
-// ↩ Retab 2.0 [⌘+⇧+T] for Safari
-(function () {
-  var closedTabs = []
-  var app = safari.application
-  var settings = safari.extension.settings
+(function (app, settings) {
+  var incognito = app.privateBrowsing.enabled
+  var retab = (function (tabs) {
+    this.open = function (visibility) {
+      if (tabs.length > 0) return (function (tab, visibility) {
+        this.openTab(visibility, tab.index).url = tab.url
+        retab.update()
+      }.call(this.window, tabs.pop(), visibility))
+    }
+    
+    this.update = function (tab) {
+      this.window.tabs.forEach(function (tab, index) {
+        tab.index = index
+      })
+      if (tab) tabs.push({ url: tab.url, index: tab.index })
+    }
 
-  app.activeBrowserWindow.updateTabs = function () {
-    this.tabs.forEach(function (tab, index) { tab.index = index })
-  }
+    return this
+  }.call({ window: app.activeBrowserWindow }, [/*^_^*/]))
 
   app.addEventListener("message", function (e) {
-    if (closedTabs.length <= 0 || e.name !== "retab"
-    || app.privateBrowsing.enabled) { return }
-
-    if (e.message.chrome === settings.getItem("chrome")) { openTab() }
+    if (!incognito && e.name === "retab")
+      retab.open(settings["visibility"])
   })
 
   app.addEventListener("close", function(e) {
-    if (!e.target.url || app.privateBrowsing.enabled) { return }
-
-    app.activeBrowserWindow.updateTabs()
-
-    closedTabs.push({
-      url: e.target.url,
-      index: e.target.index
-    })
-  }, true) /* useCapture */
-
-  function openTab () {
-    setTimeout(function () {
-      var tab = closedTabs.pop()
-      app.activeBrowserWindow.openTab(
-        settings.getItem("visibility"), tab.index).url = tab.url
-      app.activeBrowserWindow.updateTabs()
-    }, 0)
-  }
-}())
+    if (!incognito && !!e.target.url) retab.update(e.target)
+  }, true)
+}(safari.application, safari.extension.settings))
