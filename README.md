@@ -10,7 +10,9 @@
 
 # Install
 
-[Download][bundle], double click and _retab_ away.
+[Download][bundle] and install.
+
+> Refresh tab / restart Safari to apply plugin.
 
 You can also [check out the source code](https://github.com/bucaran/retab/blob/master/retab.safariextension/index.js) at _< 30 LOC_.
 
