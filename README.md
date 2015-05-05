@@ -10,9 +10,9 @@
 
 # Install
 
-[Download][bundle] and install.
-
 > Refresh tab / restart Safari to apply plugin.
+
+[Download][bundle] and install.
 
 # Features
 
