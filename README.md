@@ -21,6 +21,7 @@ You can also check out the source code _< 40 LOC_.
 + Chrome-style Key Bindings
 + Remembers closed tab position
 + Background (Faster) / Foreground Tab Opening
++ Respect _Private Browsing_ mode
 
 ## Key Bindings
 
