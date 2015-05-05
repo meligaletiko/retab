@@ -23,7 +23,7 @@ You can also check out the source code _< 40 LOC_.
 + Background (Faster) / Foreground Tab Opening
 + Respect _Private Browsing_ Mode
 + Unlimited Tabs
-+ _Restore Tab Browsing History_ ![](https://img.shields.io/badge/Next-Release-ee0bee.svg?style=flat-square)
++ _Restore Tab Browsing History_ [__WIP__]
 
 ## Key Bindings
 
