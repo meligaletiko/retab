@@ -19,9 +19,11 @@ You can also check out the source code _< 40 LOC_.
 # Features
 
 + Chrome-style Key Bindings
-+ Remembers closed tab position
++ Remembers Closed Tab Position
 + Background (Faster) / Foreground Tab Opening
-+ Respect _Private Browsing_ mode
++ Respect _Private Browsing_ Mode
++ Unlimited Tabs
++ _Restore Tab Browsing History_ ![](https://img.shields.io/badge/Next-Release-ee0bee.svg?style=flat-square)
 
 ## Key Bindings
 
