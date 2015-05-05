@@ -16,5 +16,23 @@
 		<key>Type</key>
 		<string>CheckBox</string>
 	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<string>chrome</string>
+		<key>Key</key>
+		<string>keyBindings</string>
+		<key>Title</key>
+		<string>Key Bindings</string>
+		<key>Titles</key>
+		<array>
+			<string>⌘+⇧+T</string>
+		</array>
+		<key>Type</key>
+		<string>RadioButtons</string>
+		<key>Values</key>
+		<array>
+			<string>chrome</string>
+		</array>
+	</dict>
 </array>
 </plist>

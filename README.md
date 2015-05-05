@@ -5,7 +5,7 @@
 ![](https://img.shields.io/badge/License-MIT-303030.svg?style=flat-square)
 
 <p align="center">
-<img width=40% src="https://cloud.githubusercontent.com/assets/8317250/7451539/caffc5aa-f28c-11e4-9c7e-f3a79931a256.png"/>
+<img width=38% src="https://cloud.githubusercontent.com/assets/8317250/7451539/caffc5aa-f28c-11e4-9c7e-f3a79931a256.png"/>
 </p>
 
 # Install
@@ -33,10 +33,10 @@ _retab_ opens tab in the background for best performance, but you can change thi
 
 ## Demonstration
 
-> Remember to refresh tab or restart Safari after download.
+> Please refresh or restart Safari after installation.
 
 <p align="center">
-<img width=85% src="https://cloud.githubusercontent.com/assets/8317250/7475096/8f232988-f380-11e4-96c1-465c3a689a01.gif"/>
+<img width=85% src="https://cloud.githubusercontent.com/assets/8317250/7482557/417c0280-f3b3-11e4-98d5-9e99a81853f0.png"/>
 </p>
 
 ## License
