@@ -1,6 +1,6 @@
 > Reopen Closed Tabs in Safari
 
-[![](https://img.shields.io/badge/Download-Bundle-00ef00.svg?style=flat-square)](https://github.com/bucaran/retab/blob/master/retab.safariextz?raw=true)
+[![](https://img.shields.io/badge/Download-Here-00ef00.svg?style=flat-square)](https://github.com/bucaran/retab/blob/master/retab.safariextz?raw=true)
 ![](https://img.shields.io/badge/Safari-Extension-00b0cc.svg?style=flat-square)
 ![](https://img.shields.io/badge/License-MIT-303030.svg?style=flat-square)
 
@@ -29,7 +29,7 @@ You can also check out the source code _< 40 LOC_.
 _retab_ uses Chrome-_style_ _<kbd>⌘</kbd> + <kbd>⇧</kbd> + <kbd>T</kbd>_ bindings by default, but you can change this via Settings.
 
 <p align="center">
-<img width=90% src="https://cloud.githubusercontent.com/assets/8317250/7451236/6ec31236-f289-11e4-99c9-af35c97575f7.png"/>
+<img width=85% src="https://cloud.githubusercontent.com/assets/8317250/7451236/6ec31236-f289-11e4-99c9-af35c97575f7.png"/>
 </p>
 
 ## License
