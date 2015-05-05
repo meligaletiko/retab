@@ -31,6 +31,12 @@ _retab_ opens tab in the background for best performance, but you can change thi
 <img width=85% src="https://cloud.githubusercontent.com/assets/8317250/7474206/cbe26dc6-f37a-11e4-9b83-4a00daa44ce0.png"/>
 </p>
 
+## Demonstration
+
+<p align="center">
+<img width=85% src="https://cloud.githubusercontent.com/assets/8317250/7475096/8f232988-f380-11e4-96c1-465c3a689a01.gif"/>
+</p>
+
 ## License
 
 [MIT](http://opensource.org/licenses/MIT) © [Jorge Bucaran](http://about.bucaran.me)
