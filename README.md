@@ -1,10 +1,8 @@
 > Reopen Closed Tabs in Safari
 
-![](https://img.shields.io/badge/Re-Tab-106ae0.svg?style=flat-square)
-![](https://img.shields.io/badge/Safari-Extension-ffaa00.svg?style=flat-square)
+[![](https://img.shields.io/badge/Download-Bundle-00ef00.svg?style=flat-square)](https://github.com/bucaran/retab/blob/master/retab.safariextz?raw=true)
+![](https://img.shields.io/badge/Safari-Extension-00b0cc.svg?style=flat-square)
 ![](https://img.shields.io/badge/License-MIT-303030.svg?style=flat-square)
-
-
 
 <p align="center">
 <img width=40% src="https://cloud.githubusercontent.com/assets/8317250/7451539/caffc5aa-f28c-11e4-9c7e-f3a79931a256.png"/>
