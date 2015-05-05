@@ -14,8 +14,6 @@
 
 > Refresh tab / restart Safari to apply plugin.
 
-You can also [check out the source code](https://github.com/bucaran/retab/blob/master/retab.safariextension/index.js) at _< 30 LOC_.
-
 # Features
 
 + Chrome-style Key Bindings
@@ -23,6 +21,7 @@ You can also [check out the source code](https://github.com/bucaran/retab/blob/m
 + Background (Faster) / Foreground Tab Opening
 + Respect _Private Browsing_ Mode
 + Unlimited Tabs
++ [< 30 LOC](https://github.com/bucaran/retab/blob/master/retab.safariextension/index.js)
 
 ## Key Bindings
 
