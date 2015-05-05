@@ -33,6 +33,8 @@ _retab_ opens tab in the background for best performance, but you can change thi
 
 ## Demonstration
 
+> Remember to refresh tab or restart Safari after download.
+
 <p align="center">
 <img width=85% src="https://cloud.githubusercontent.com/assets/8317250/7475096/8f232988-f380-11e4-96c1-465c3a689a01.gif"/>
 </p>
