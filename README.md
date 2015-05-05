@@ -28,7 +28,7 @@
 _retab_ opens tab in the background for best performance, but you can change this via <kbd>⌘</kbd> + <kbd>,</kbd> Settings → Extensions.
 
 <p align="center">
-<img width=85% src="https://cloud.githubusercontent.com/assets/8317250/7474206/cbe26dc6-f37a-11e4-9b83-4a00daa44ce0.png"/>
+<img width=85% src="https://cloud.githubusercontent.com/assets/8317250/7482557/417c0280-f3b3-11e4-98d5-9e99a81853f0.png"/>
 </p>
 
 ## Demonstration
@@ -36,7 +36,7 @@ _retab_ opens tab in the background for best performance, but you can change thi
 > Please refresh or restart Safari after installation.
 
 <p align="center">
-<img width=85% src="https://cloud.githubusercontent.com/assets/8317250/7482557/417c0280-f3b3-11e4-98d5-9e99a81853f0.png"/>
+<img width=85% src="https://cloud.githubusercontent.com/assets/8317250/7475096/8f232988-f380-11e4-96c1-465c3a689a01.gif"/>
 </p>
 
 ## License
