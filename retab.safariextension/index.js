@@ -13,6 +13,7 @@
 
           var browserWindow, openTab;
 
+          // Search for the tab browser window in the current open windows
           for (var i = 0; i < this.browserWindows.length; i++) {
             if (tab.browserWindow === this.browserWindows[i]) {
               browserWindow = tab.browserWindow;
@@ -20,9 +21,11 @@
             }
           };
 
+          // Check if a browser window was found
           if (!!!browserWindow) {
             browserWindow = this.openBrowserWindow();
 
+            // Update the window instances of all tabs with a window closed
             retab.updateBroserWindow(tab.browserWindow, browserWindow);
 
             openTab = browserWindow.activeTab;
@@ -31,7 +34,9 @@
             openTab = browserWindow.openTab(visibility, tab.index);
           }
 
+          // Update tab information
           openTab.url = tab.url;
+          openTab.index = tab.index;
 
         }.call(this.app, tabs.pop(), visibility))
       }
@@ -49,6 +54,7 @@
       }
     }
 
+    // Callback to update tabs browser window
     this.updateBroserWindow = function (oldBrowserWindow, newBrowserWindow) {
 
       tabs.forEach(function (tab, index) {
