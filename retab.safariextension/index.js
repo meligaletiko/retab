@@ -15,12 +15,15 @@
           var openTab;
 
           // Search for the tab browser window in the current open windows
-          for (var i = this.browserWindows.length - 1; i >= 0; i--) {
-            if (tab.browserWindow === this.browserWindows[i]) {
+          this.browserWindows.every(function (arrayTab) {
+            if (tab.browserWindow == arrayTab) {
               browserWindow = tab.browserWindow
-              break
+
+              return false
             }
-          }
+
+            return true
+          })
 
           // Check if a browser window was found
           if (browserWindow) {
@@ -59,7 +62,7 @@
     this.updateBroserWindow = function (oldBrowserWindow, newBrowserWindow) {
 
       tabs.forEach(function (tab, index) {
-        if (tab.browserWindow === oldBrowserWindow) {
+        if (tab.browserWindow == oldBrowserWindow) {
           tab.browserWindow = newBrowserWindow
         }
       })
