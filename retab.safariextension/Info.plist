@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>Author</key>
-	<string>Jorge Bucaran</string>
+	<string>Jorge Bucaran &amp; Luís Portela</string>
 	<key>Builder Version</key>
-	<string>10600.5.17</string>
+	<string>10600.7.7</string>
 	<key>CFBundleDisplayName</key>
 	<string>Retab</string>
 	<key>CFBundleIdentifier</key>
-	<string>me.bucaran.retab</string>
+	<string>me.meligaletiko.retab</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>2.0</string>
+	<string>2.1</string>
 	<key>CFBundleVersion</key>
-	<string>2</string>
+	<string>3</string>
 	<key>Chrome</key>
 	<dict>
 		<key>Global Page</key>
@@ -34,7 +34,7 @@
 	<key>Description</key>
 	<string>Reopen Closed Tabs</string>
 	<key>DeveloperIdentifier</key>
-	<string>JVDUFN38BR</string>
+	<string>5NNJQUZ7TT</string>
 	<key>ExtensionInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>Permissions</key>
@@ -50,6 +50,6 @@
 	<key>Update Manifest URL</key>
 	<string>https://raw.githubusercontent.com/bucaran/retab/master/Updates.plist</string>
 	<key>Website</key>
-	<string>http://github.com/bucaran/retab</string>
+	<string>http://github.com/meligaletiko/retab</string>
 </dict>
 </plist>
